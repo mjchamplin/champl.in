@@ -15,8 +15,9 @@
         var instaSrc = {};
         var instaTitle = {};
         
-        //instaLat = 30.2921987;
-        //instaLon = -97.7355486;
+				//Fallback coordinates (in case Instagram returns null)
+        instaLat = 30.2921987;
+        instaLon = -97.7355486;
         
         
         $.ajax({
